@@ -1,0 +1,38 @@
+/*css code is valid as every css is a valid less*/
+
+@import "initStyles";
+@import "roundedCorners";
+
+
+body {
+    background-color: @primary-background-color;
+}
+
+h1 {
+    text-align: center;
+}
+
+div input[type="text"] {
+    background-color: #F5D76E;
+    margin: @text-margin;
+    padding: @text-padding;
+    .text-rounded-corners;
+}
+#main-content-container {
+    border: 1px solid;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 100px 10px 100px;
+    border-color: black;
+    background-color: @primary-div-background-color;
+}
+
+#btn-submit-form {
+    background-color: white;
+    .text-rounded-corners(5px);
+}
+
+.img-class-green {
+    width: 150px;
+    height: 150px;
+    float: right;
+}
