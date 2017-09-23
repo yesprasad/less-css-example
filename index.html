@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to CSS training</title>
+        <link rel="stylesheet/less" href="styles.less">
+        <script type="text/javascript" src="less.min.js"></script>
+<!--        "less.min.js" is the JS file that runs through all the link tags for which the rel tag has less in it, then complies them. This JS should be at the end of loading all stylesheets. else css will not be rendered-->
+    </head>
+    <body>
+        <div>
+            <h1>Leave application form</h1>
+        </div>
+        <div id="main-content-container">
+            <form action="/">
+                <div id="div-start-date">
+                    <label>Leave start date:</label>
+                    <input type="text" placeholder="enter start date in dd/mm/yyyy format">
+                </div>
+                <div id="div-end-date">
+                    <label>Leave end date:</label>
+                    <input type="text" placeholder="enter end date in dd/mm/yyyy format">
+                </div>
+                <div>
+                    <button type="submit" id="btn-submit-form">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
